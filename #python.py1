@@ -1,0 +1,41 @@
+#python
+# INPUT điểm toán,văn,anh
+# TB = tổng điểm 3 môn/ 3
+# if TB < 5:
+#     print('học sinh yếu')
+# if TB < 6.5:
+#     print('học sinh trung bình')
+# if TB < 8:
+#     print('Học sinh khá')
+# else:
+#     print("học sinh giỏi")
+
+
+# diem_van = int(input())
+# diem_toan = int(input())
+# diem_anh = int(input())
+# TB = (diem_van + diem_toan + diem_anh)/3
+# if TB < 5:
+#     print('Không Đạt')
+# elif TB < 6.5:
+#     print('học sinh trung bình')
+# elif TB < 8:
+#     print('Học sinh khá')
+# else:
+#     print("học sinh giỏi")
+
+# for i in range(0,13,2):
+#     print(i)
+
+# dem = 0
+# for i in range(1,13):
+#     if i%2 == 0:
+#         dem += 1
+# print(dem)
+
+        
+count = 0 
+for i in range(1,100):
+    if i%3 == 0:
+        count += 1
+print(count)
